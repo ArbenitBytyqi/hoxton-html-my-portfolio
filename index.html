@@ -5,68 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Protofolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-    <bio class="bio">
-        <header class="main-header">
-            <h3 class="name">Arbenit Bytyçi</h3>
-            <p class="experience-header">Experience</p>
-            <p class="projects-header">Projects</p>
-            <p class="top">Top</p>
+    <section class="top" id="top">
+        <header>
+            <h1>Arbenit Bytyçi</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#top">Top</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                </ul>
+            </nav>
         </header>
-
-        <div class="description-div">
-            <description class="description">
-                <h2 class="title">Full-Stack Software Engineer</h2>
-                <p>Are you looking to hire a full-stack developer who will bring value to you team with <a
-                        href="https://asq.org/quality-resources/problem-solving#:~:text=Problem%20solving%20is%20the%20act,Problem%20solving%20resources">problem
-                        solving</a>,
-                    <a href="https://eric.ed.gov/?id=EJ603207">good communication</a> and <a
-                        href="https://www.researchgate.net/profile/Jean-Benoit-Morin/publication/50250399_Technical_Ability_of_Force_Application_as_a_Determinant_Factor_of_Sprint_Performance/links/6134f20fc69a4e48797d97de/Technical-Ability-of-Force-Application-as-a-Determinant-Factor-of-Sprint-Performance.pdf">technical
-                        ability</a> ?
+        <div class="center-box">
+            <h2 class="ceter-box-title">Full-Stack Software Engineer</h2>
+            <p class="ceter-box-text">I'm a web developer based in the capital city of Kosovo, Prishtina</p>
+        </div>
+        <a href="#projects" class="expand">
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+        </a>
+    </section>
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+            <li class="project-item">
+                <h3>Gmail Layout</h3>
+                <p>
+                    In this project I recreated Gmail Layout using grid
                 </p>
-                <br>
-                <p>Then look no further!</p>
-                <br>
-                <p>Well... maybe do look a little further, I have some pretty cool projects if you scroll down.</p>
-            </description>
-        </div>
-
-    </bio>
-
-    <projects class="projects">
-        <h3 class="projects-title">Projects</h3>
-        <div class="lottery-div">
-            <h4 class="lottery-title">Hoxton-html-gmail-layout</h4>
-            <p>This is an exercise made to show how the layout of gmail is created using html, css and grid layout</p>
-            <Button class="lottery-project"
-                onclick="window.location.href='https://github.com/ArbenitBytyqi/hoxton-html-gmail-layout';">GO TO
-                PROJECT</Button>
-        </div>
-
-        <div class="lottery-div2">
-            <h4 class="lottery-title">Hoxton-html-gmail-media</h4>
-            <p>This is an exercise made to show how the layout of gmail is created using html, css and grid layout</p>
-            <Button class="lottery-project"
-                onclick="window.location.href='https://github.com/ArbenitBytyqi/hoxton-html-hoxton-media';">GO TO
-                PROJECT</Button>
-        </div>
-
-        <div class="lottery-div3">
-            <h4 class="lottery-title">Hoxton-html-gmail-news</h4>
-            <p>This is an exercise made to show how the layout of gmail is created using html, css and grid layout</p>
-            <Button class="lottery-project"
-                onclick="window.location.href='https://github.com/ArbenitBytyqi/hoxton-html-hoxton-news';">GO TO
-                PROJECT</Button>
-        </div>
-    </projects>
-
-    <experience class="experience">
-
-    </experience>
+                <a href="https://github.com/ArbenitBytyqi/hoxton-html-gmail-layout">GO TO PROJECT</a>
+            </li>
+            <li class="project-item">
+                <h3>Gmail Components</h3>
+                <p>
+                    In this project I recreated Gmail Components using Html and CSS
+                </p>
+                <a href="https://github.com/ArbenitBytyqi/hoxton-html-gmail-components">GO TO PROJECT</a>
+            </li>
+            <li class="project-item">
+                <h3>Portofolio</h3>
+                <p>
+                    Here is the code for the portofolio that you are reading here
+                </p>
+                <a href="https://github.com/ArbenitBytyqi/hoxton-html-my-portfolio">GO TO PROJECT</a>
+            </li>
+        </ul>
+    </section>
+    <section class="experience" id="experience">Experience</section>
+    <footer>
+        <a href="#top">Back to top</a>
+    </footer>
 </body>
 
 </html>
